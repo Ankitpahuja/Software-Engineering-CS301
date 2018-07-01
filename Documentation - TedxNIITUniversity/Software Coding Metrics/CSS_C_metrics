@@ -1,0 +1,216 @@
+ayush@ayush:~/Desktop/softwaremetrix$ grunt 
+Running "cssmetrics:dev" (cssmetrics) task
+
+Metrics for /home/ayush/Desktop/softwaremetrix/css/global.css
+>> Total rules: 83
+>> Total selectors: 173
+>> Average selectors per rule: 2.1
+>> File size: 8.05 KB
+>> GZip size: 2.50 KB
+
+Metrics for /home/ayush/Desktop/softwaremetrix/css/animate.css
+>> Total rules: 236
+>> Total selectors: 82
+>> Average selectors per rule: 0.3
+>> File size: 72.62 KB
+>> GZip size: 4.24 KB
+
+
+Metrics for /home/ayush/Desktop/softwaremetrix/css/responsive.css
+>> Total rules: 7
+>> Total selectors: 0
+>> Average selectors per rule: 0
+>> File size: 7.47 KB
+>> GZip size: 1.86 KB
+
+Metrics for /home/ayush/Desktop/softwaremetrix/css/style.css
+>> Total rules: 68
+>> Total selectors: 59
+>> Average selectors per rule: 0.9
+>> File size: 20.72 KB
+>> GZip size: 4.18 KB
+
+Metrics for /home/ayush/Desktop/softwaremetrix/css/jquery.fancybox.css
+>> Total rules: 39
+>> Total selectors: 50
+>> Average selectors per rule: 1.3
+>> File size: 4.23 KB
+>> GZip size: 1.25 KB
+
+Done.
+
+ayush@ayush:~/Desktop/softwaremetrix$ parker animate.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 74361
+Total Rules: 230
+Total Selectors: 232
+Total Identifiers: 389
+Total Declarations: 1554
+Selectors Per Rule: 1.008695652173913
+Identifiers Per Selector: 1.6767241379310345
+Specificity Per Selector: 4.482758620689655
+Top Selector Specificity: 20
+Top Selector Specificity Selector: .animated.infinite
+Total Id Selectors: 0
+Total Unique Colors: 0
+Unique Colors: 
+Total Important Keywords: 8
+Total Media Queries: 0
+Media Queries: 
+
+ayush@ayush:~/Desktop/softwaremetrix$ parker global.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 8240
+Total Rules: 75
+Total Selectors: 175
+Total Identifiers: 251
+Total Declarations: 215
+Selectors Per Rule: 2.3333333333333335
+Identifiers Per Selector: 1.44
+Specificity Per Selector: 11.96
+Top Selector Specificity: 113
+Top Selector Specificity Selector: #header nav li a:hover
+Total Id Selectors: 11
+Total Unique Colors: 7
+Unique Colors: #242424,#FFFFFF,#90D23D,#373737,#222323,#82B541,#000000
+Total Important Keywords: 0
+Total Media Queries: 0
+Media Queries: 
+
+ayush@ayush:~/Desktop/softwaremetrix$ parker jquery.fancybox.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 4333
+Total Rules: 36
+Total Selectors: 50
+Total Identifiers: 67
+Total Declarations: 136
+Selectors Per Rule: 1.3888888888888888
+Identifiers Per Selector: 1.34
+Specificity Per Selector: 16.82
+Top Selector Specificity: 101
+Top Selector Specificity Selector: #fancybox-loading div
+Total Id Selectors: 3
+Total Unique Colors: 5
+Unique Colors: #F9F9F9,#444444,#222222,#FFFFFF,#000000
+Total Important Keywords: 4
+Total Media Queries: 0
+Media Queries: 
+
+ayush@ayush:~/Desktop/softwaremetrix$ parker responsive.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 7651
+Total Rules: 122
+Total Selectors: 152
+Total Identifiers: 217
+Total Declarations: 191
+Selectors Per Rule: 1.2459016393442623
+Identifiers Per Selector: 1.4473684210526316
+Specificity Per Selector: 22.56578947368421
+Top Selector Specificity: 120
+Top Selector Specificity Selector: #intro .page-sm:before
+Total Id Selectors: 19
+Total Unique Colors: 1
+Unique Colors: #222323
+Total Important Keywords: 1
+Total Media Queries: 7
+Media Queries: only screen and (max-device-width: 1024px),all and (max-width: 1029px),only screen and (min-width: 768px) and (max-width: 1024px),all and (max-width: 767px),only screen and (max-width: 480px),only screen and (min-width:1601px),only screen and (min-width: 1024px) and (max-width: 1029px)
+
+ayush@ayush:~/Desktop/softwaremetrix$ parker style.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 21221
+Total Rules: 141
+Total Selectors: 148
+Total Identifiers: 360
+Total Declarations: 212
+Selectors Per Rule: 1.049645390070922
+Identifiers Per Selector: 1.8581081081081081
+Specificity Per Selector: 16.864864864864863
+Top Selector Specificity: 102
+Top Selector Specificity Selector: section#menu-event-detail::before
+Total Id Selectors: 4
+Total Unique Colors: 12
+Unique Colors: #FFFFFF,#82B541,#252525,#BEBEBE,#6C6C6C,#242424,#EF3340,#90D23D,#373737,#A3CC40,#4B4D4F,#CCCCCC
+Total Important Keywords: 1
+Total Media Queries: 0
+Media Queries: 
+
+yush@ayush:~/Desktop/softwaremetrix$ parker font-awesome.min.css
+PARKER-JS
+Total Stylesheets: 1
+Total Stylesheet Size: 21987
+Total Rules: 510
+Total Selectors: 585
+Total Identifiers: 1145
+Total Declarations: 558
+Selectors Per Rule: 1.1470588235294117
+Identifiers Per Selector: 1.9572649572649572
+Specificity Per Selector: 19.475213675213674
+Top Selector Specificity: 20
+Top Selector Specificity Selector: .fa-li.fa-lg
+Total Id Selectors: 0
+Total Unique Colors: 2
+Unique Colors: #EEEEEE,#FFFFFF
+Total Important Keywords: 0
+Total Media Queries: 0
+Media Queries: 
+
+
+
+
+
+
+PHP
+
+ayush@ayush:~/Desktop//php$ pdepend --summary-xml=/tmp/summary.xml                        --jdepend-chart=/tmp/jdepend.svg                        --overview-pyramid=/tmp/pyramid.svg                        /home/ayush/Desktop/php2/phhp
+PDepend @package_version@
+
+Parsing source files:
+...                                                              3
+
+Calculating Cyclomatic Complexity metrics:
+.     0
+
+Calculating Node Loc metrics:
+.     0
+
+Calculating NPath Complexity metrics:
+.     0
+
+Calculating Inheritance metrics:
+.     0
+
+Calculating Node Count metrics:
+.     0
+
+Calculating Hierarchy metrics:
+.     0
+
+Calculating Code Rank metrics:
+.     0
+
+Calculating Coupling metrics:
+.     0
+
+Calculating Class Level metrics:
+.     0
+
+Calculating Cohesion metrics:
+.     0
+
+Calculating Halstead metrics:
+.     0
+
+Calculating Maintainability Index metrics:
+.     0
+
+Calculating Dependency metrics:
+.     0
+
+Generating pdepend log files, this may take a moment.
+
+Time: 0:00:00; Memory: 6.00Mb
